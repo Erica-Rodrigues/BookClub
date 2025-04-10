@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    height: 100vh;
-    margin: 1rem;
+    margin: 3rem;
 }
 
 .accueil__img{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .img__accueil{
@@ -17,7 +17,18 @@
 }
 
 .accueil__content{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 2rem;
+}
+
+.accueil-content__title{
+    margin-bottom: 0.5rem;
+}
+
+
+.accueil-content__subtitle{
+    margin-bottom: 1.5rem;
 }
