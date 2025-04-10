@@ -1,0 +1,23 @@
+.container__accueil{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: 100vh;
+    margin: 1rem;
+}
+
+.accueil__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__accueil{
+    width: 80%;
+}
+
+.accueil__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
