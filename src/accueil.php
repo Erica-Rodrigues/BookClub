@@ -7,7 +7,7 @@
 
 <div class="container__accueil">
     <div class="accueil__img">
-        <img src="https://i.pinimg.com/736x/9d/8b/b0/9d8bb0df052f1cedc767c5c2d3d45ad6.jpg" alt="livres" class="img__accueil">
+        <img src="./assets/img/ bookclub.jpg" alt="snoopy bookClub" class="img__accueil">
     </div>
     <div class="accueil__content">
         <h1 class="accueil-content__title">The book club</h1>
