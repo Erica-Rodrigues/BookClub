@@ -1,9 +1,11 @@
 .container__login{
-    margin-top: 2rem;
+    margin: 2rem auto 4rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
 
 .loginForm{
@@ -11,14 +13,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 .connectionForm{
-    height: 2rem;
-    width: 15rem;
+    width: 100%;
+    max-width: 300px;
     border: 1px solid rgb(173, 193, 120);
     border-radius: 5px;
     padding: 0.5rem;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .formInscription{
@@ -26,17 +33,21 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .formInscription > p{
     padding: 0;
     margin: 0;
+    font-size: 0.95rem;
 }
 
 .btnFormInscri{
     border: none;
     background: none;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     font-size: 1rem;
     color: rgb(173, 193, 120);
     font-weight: bolder;
@@ -62,4 +73,30 @@
         top: 1px;
       }
     }
-  }
+}
+
+@media (min-width: 768px) {
+    .loginForm {
+        max-width: 500px;
+    }
+
+    .connectionForm {
+        font-size: 1.1rem;
+    }
+
+    .formInscription > p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .loginForm {
+        max-width: 600px;
+    }
+
+    .myButton {
+        font-size: 1.1rem;
+        max-width: 250px;
+    }
+}
