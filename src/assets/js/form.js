@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             inscriptionForm.style.display = "inherit";
             
-            formInscriptionText.textContent = "Vous avez déjà un compte ? Connectez-vous";
+            formInscriptionText.textContent = "Vous avez déjà un compte ? ";
             formInscriptionButton.textContent = "Se connecter";
         } else {
             inscriptionForm.style.display = "none";
