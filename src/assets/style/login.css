@@ -16,6 +16,9 @@
 .connectionForm{
     height: 2rem;
     width: 15rem;
+    border: 1px solid rgb(173, 193, 120);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 
 .formInscription{
@@ -35,6 +38,8 @@
     background: none;
     padding-left: 1rem;
     font-size: 1rem;
+    color: rgb(173, 193, 120);
+    font-weight: bolder;
 }
 
 .myButton {
