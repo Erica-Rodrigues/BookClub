@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg " style="background-color: rgb(173, 193, 120);">
   <div class="container-fluid">
     <a class="navbar-brand" href="./accueil.php">Book Club</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
