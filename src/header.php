@@ -32,11 +32,7 @@
           </ul>
         </li>
         <li class="nav-item">
-<<<<<<< HEAD
-          <a class="nav-link" aria-current="page" href="./formulaire.php">Contact</a>
-=======
           <a class="nav-link" href="./formulaire.php">Contact</a>
->>>>>>> formulaire
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./login.php">Login</a>
