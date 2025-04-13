@@ -6,7 +6,7 @@
 
 <div class="container__login">
       <!-- formulaire de login -->
-      <form action="login.php" method="POST" class="loginForm connection">
+    <form action="login.php" method="POST" class="loginForm connection">
         <h1>Login</h1>
         <input type="email"  name="email" class="connectionForm" placeholder="Email"><br><br>
 
