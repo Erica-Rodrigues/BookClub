@@ -1,0 +1,60 @@
+.container__login{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectionForm{
+    height: 2rem;
+    width: 15rem;
+}
+
+.formInscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInscription > p{
+    padding: 0;
+    margin: 0;
+}
+
+.btnFormInscri{
+    border: none;
+    background: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.myButton {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(233, 237, 201);
+    border-radius: 5px;
+    border: 1px solid rgb(254, 250, 244);
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-decoration: none;
+    &:hover {
+      background-color: rgb(204, 213, 174);
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
